@@ -1,5 +1,5 @@
 # RTR105
 DatorMaciba kursa elektroniska klade
-CTRL+ALT+T - Terminals
+<font color="green">CTRL+ALT+T</font> - Terminals
 CTRL+ALT+[F1...F7]
 CTRL+SHIFT+T
