@@ -1,0 +1,26 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  uname -a
+    4  sudo lshw -html > mySpecs.html
+    5  sudo lshw-> ls hw
+    6  uname -i
+    7  uname -o
+    8  uname 
+    9  uname -h
+   10  man uname
+   11  clear
+   12  man uname
+   13  clear
+   14  uname -p
+   15  uname -all
+   16  uname -a
+   17  clear
+   18  uname -a
+   19  echo $0
+   20  clear
+   21  time
+   22  man time
+   23  time -a
+   24  clear
+   25  histroy > history_20180910.txt
+   26  history > history_20180910.txt
