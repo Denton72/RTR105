@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  pwd
+    5  cd Desktop/
+    6  LS
+    7  ls
+    8  cd ..
+    9  pwd
+   10  cd ..
+   11  cd..
+   12* cd ..k
+   13  ls
+   14  cd /home/user/
+   15  mkdir ManaMapa
+   16  ls
+   17  cd ManaMapa/
+   18  mkdir ManaMapaMape
+   19  cd ManaMapaMape
+   20  mkdir ManaMapaMapeMape
+   21  cd ManaMapaMapeMape
+   22  mkdir ManaMapaMapeMapeMape
+   23  cd ManaMapaMapeMapeMape
+   24  mkdir ManaMapaMapeMapeMapeMape
+   25  cd ManaMapaMapeMapeMapeMape/
+   26  mkdir ManaMapaMapeMapeMapeMapeMape
+   27  cd ManaMapaMapeMapeMapeMapeMape/
+   28  mkdir ManaMapaMapeMapeMapeMapeMapeMape
+   29  cd ManaMapaMapeMapeMapeMapeMapeMape/
+   30  cd TR0MASTER3018
+   31  mkdir TR0MASTER3018
+   32  printf '101010101010101010101010101010101010101010101010101010101010100101\n%.0s' {1..2}
+   33  cd ..
+   34  printf '101010101010101010101010101010101010101010101010101010101010100101\n%.0s' {1..100000}
+   35  printf '101010101010101010101010101010101010101010101010101010101010100101\n%.0s' {1..1000000000}
+   36  printf '101010101010101010101010101010101010101010101010101010101010100101\n%.0s' {1..10000000}
+   37  lsclear
+   38* 
+   39  printf '101010101010101010101010101010101010101010101010101010101010100101\n%.0s' {1..100}
+   40  history
+   41  history > history_20180917.txt
+   42  cd user/
+   43  history > history_20180917.txt
