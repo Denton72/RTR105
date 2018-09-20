@@ -37,3 +37,4 @@ git clone https://github.com/Denton72/RTR105 - clone github to linux user direct
  ls -l
  history history
  history > history.txt
+sudo apt.get-get install git (install git hub  commands for linux)
