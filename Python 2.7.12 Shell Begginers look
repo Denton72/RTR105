@@ -1,0 +1,60 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> PRINT "HELLO WORLD"
+SyntaxError: invalid syntax
+>>> print "Hello World"
+Hello World
+>>> print (2+2)
+4
+>>> print 2+2
+4
+>>> print "2+2"
+2+2
+>>> 2+2
+4
+>>> #!/usr/bin/env
+>>> print "hello world"
+hello world
+>>> /hello
+SyntaxError: invalid syntax
+>>> a = 4
+>>> id(a)
+14688592
+>>> a + 4
+8
+>>> a
+4
+>>> b = []
+>>> id(b)
+140140015836048
+>>> b.append(3)
+>>> b
+[3]
+>>> id(b)
+140140015836048
+>>> b+a
+
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    b+a
+TypeError: can only concatenate list (not "int") to list
+>>> #!beacuse b = [3] and a = 4 4+[3]
+>>> a = 4 # integer
+>>> b = 5.6 # Float
+>>> a+b
+9.6
+>>> c = "hello" # String
+>>> c
+'hello'
+>>> a = "4" # rebound to String
+>>> 4+4
+8
+>>> a+4
+
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    a+4
+TypeError: cannot concatenate 'str' and 'int' objects
+>>> # string is a text integer is a number in laime mans term
+>>> 
