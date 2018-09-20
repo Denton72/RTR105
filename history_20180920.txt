@@ -20,4 +20,20 @@ mkdir MapeMape
    13  ls -l
    14  ./mans_pirmais_skripts.sh 
    15  ~/mans_pirmais_skripts.sh 
-git clone https://github.com/Denton72/RTR105 - clone github to linux user directory(if in user directory)
+git clone https://github.com/Denton72/RTR105 - clone github to linux user directory(depends in whice directory you are)
+ ls
+ cd RTR105/
+ CD
+ cd
+ ls
+ RTR105/
+ ls
+ cd ./RTR105/
+ ls
+ nano git-upload.sh
+ ls
+ ls -l
+ chmod 764 git-upload.sh 
+ ls -l
+ history history
+ history > history.txt
