@@ -1,2 +1,23 @@
 = -> piešķiršana operacija
 
+    1  VirtualBox --startvm XP
+    2  quartus
+//script writing
+    3  ls
+    4  pwd
+    5  nano mans_pirmais_skripts.sh
+#!/bin/bash
+mkdir Mape
+cd Mape
+mkdir MapeMape
+    6  ls
+    7  echo $path
+    8  echo $PATH
+    9  chmod 764 mans_pirmais_skripts.sh 
+   10  mans_pirmais_skripts.sh
+   11  ls -l
+   12  /home/user/mans_pirmais_skripts.sh 
+   13  ls -l
+   14  ./mans_pirmais_skripts.sh 
+   15  ~/mans_pirmais_skripts.sh 
+
