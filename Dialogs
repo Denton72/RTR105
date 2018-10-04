@@ -1,0 +1,9 @@
+#!usr/bin/python
+#-*- coding: utf-8 -*-
+a = input("Cienijamais lietotÄjs ievadi gadu kad YOU WILL DIE :D")
+# 3.python'Ä visi input rezultÄti ir ar str datu tipu tapÄ“c ievadÄ«tas lielums vÄ“lÄk ir jÄparveido
+a = int(a)
+print("you will die in"%a)
+s=a+a+a*a-a
+print("this what happens wen you make me made"+str(a)+"+"+str(a)+"+"+str(a)+"+"+str(a)+"*"str(a)+"-"+str(a)"="+str(s))
+
