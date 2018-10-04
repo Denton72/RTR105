@@ -58,3 +58,9 @@ Traceback (most recent call last):
 TypeError: cannot concatenate 'str' and 'int' objects
 >>> # string is a text integer is a number in laime mans term
 >>> 
+
+hrs = input("Enter Hours:")
+hrp = input("Enter Pay per hour")
+summ = int(hrs)*float(hrp)
+print("Pay: "+str(summ)) #need to convert value summ to str for better use 
+
