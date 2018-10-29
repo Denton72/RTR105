@@ -1,0 +1,44 @@
+largest = None
+smallest = None
+
+while True:
+    num = input("Enter a number: ")
+    if num == "done" : 
+        break 
+    try:
+        inp=float(num)
+    except:
+        print("Invalid input")
+        continue
+
+for value in [7,2,10,4]: 
+    if largest is None:
+        largest = value
+    elif value>largest:  
+        largest=value
+        print("Maximum is", largest)            
+for value in [7,2,10,4]: 
+    if smallest is None:
+        smallest = value
+    elif value < smallest:
+        smallest=value          
+        print("Minimum is", smalle#st)
+
+#results in loop i FORGOT TO ENTER DONE
+
+Shorter Variant 
+myList = []
+while True:
+    num = input("Enter a number wen Done write done with small letters")
+    try:
+        if num == "done":
+            break
+        myList.append(int(num))
+    except ValueError:
+        print("Invalid input")
+        continue
+if len(myList) > 0:
+    print("Maximum is " + str(max(myList)))
+    print("Minimum is " + str(min(myList)))
+else:
+    print("List is empty")
