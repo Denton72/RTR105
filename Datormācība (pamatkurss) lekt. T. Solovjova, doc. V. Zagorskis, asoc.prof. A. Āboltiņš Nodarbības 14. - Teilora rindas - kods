@@ -192,24 +192,38 @@ a1 = -20.83 S1 = -15.83
 a2 =  26.04 S2 =  10.21
 a3 = -15.50 S3 =  -5.29
 --------------------------------------------------------------------------------------
-Final Version(not working on 3.7)
+Final Version 
 # -*- coding: utf-8 -*-
 from math import sin
+
 def mans_sinuss(x):
-k = 0
-a = (-1)**0*x**1/(1)
-S = a
-print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
-while k < 3:
-k = k + 1
-R = (-1)*x*x/((2*k)*(2*k+1))
-a = a * R
-S = S + a
-print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-print("Izdruka no liet.f. Beigas!")
-return S
+     k = 0
+     a = (-1)**0*x**1/(1)
+     S = a
+     print("Izdruka no liet.f. a0 = %6.2f S0 = %6.2f"%(a,S))
+
+     while k < 3:
+         k = k + 1
+         R = (-1)*x*x/((2*k)*(2*k+1))
+         a = a * R
+         S = S + a
+         print("Izdruka no liet.f. a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
+         
+     print("Izdruka no liet.f. Beigas!")
+     return S
 x = float(input("Lietotāj, lūdzu, ievadi argumentu (x): "))
 y = sin(x)
 print("standarta sin(%.2f) = %6.2f"%(x,y))
+
 yy = mans_sinuss(x)
 print("mans sin(%.2f) = %6.2f"%(x,yy))
+
+Results
+Lietotāj, lūdzu, ievadi argumentu (x): 5                                                                                                     
+standarta sin(5.00) =  -0.96                                                                                                                 
+Izdruka no liet.f. a0 =   5.00 S0 =   5.00                                                                                                   
+Izdruka no liet.f. a1 = -20.83 S1 = -15.83                                                                                                   
+Izdruka no liet.f. a2 =  26.04 S2 =  10.21                                                                                                   
+Izdruka no liet.f. a3 = -15.50 S3 =  -5.29                                                                                                   
+Izdruka no liet.f. Beigas!                                                                                                                   
+mans sin(5.00) =  -5.29  
