@@ -1,0 +1,15 @@
+myList = []
+while True:
+    num = input("Enter a number wen Done write done with small letters")
+    try:
+        if num == "done":
+            break
+        myList.append(int(num))
+    except ValueError:
+        print("Invalid input")
+        continue
+if len(myList) > 0:
+    print("Maximum is " + str(max(myList)))
+    print("Minimum is " + str(min(myList)))
+else:
+    print("List is empty")
