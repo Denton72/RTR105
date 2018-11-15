@@ -41,7 +41,7 @@ if 0.0 <= score <= 1.0:
 else:
  print("SORRY you entered some thing wrong")
     
-  
+
 
     
   
