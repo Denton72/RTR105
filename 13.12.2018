@@ -1,0 +1,112 @@
+Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
+[GCC 7.3.0] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> original = "To be or Not to be!"
+>>> type(original)
+<class 'str'>
+>>> len(original)
+19
+>>> original[1]
+'o'
+>>> key = 10
+>>> original[0] ^ key
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    original[0] ^ key
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> ord(original[0])
+84
+>>> bin(ord(original[0]))
+'0b1010100'
+>>> ord(original[0]) ^ key
+94
+>>> chr(ord(original[0])) ^ key)
+SyntaxError: invalid syntax
+>>> chr(ord(original[0]) ^ key )
+'^'
+>>> ord(original[0] ^ key) ^ key
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    ord(original[0] ^ key) ^ key
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> (ord(original[0] ^ key) ^ key )
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    (ord(original[0] ^ key) ^ key )
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> (ord(original[0] ^ key) ^ key
+)
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    (ord(original[0] ^ key) ^ key
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> (ord(original[0]) ^ key) ^ key
+     
+84
+>>> original
+     
+'To be or Not to be!'
+>>> N = len(original)
+     
+>>> N
+     
+19
+>>> message = []
+     
+>>> for i in range(N):
+	message.append(ord(original[i]) ^ key))
+    
+SyntaxError: invalid syntax
+>>> for i in range(N):
+	message.append(chr(ord(original[i]) ^ key))
+
+	
+>>> 
+>>> original
+'To be or Not to be!'
+>>> message
+['^', 'e', '*', 'h', 'o', '*', 'e', 'x', '*', 'D', 'e', '~', '*', '~', 'e', '*', 'h', 'o', '+']
+>>> message = ''
+>>> for i in range(N):
+	message=message +(ord(original[i]) ^ key))
+	
+SyntaxError: invalid syntax
+>>> for i in range(N):
+	message=message +(chr(ord(original[i]) ^ key))
+message
+SyntaxError: invalid syntax
+>>> message
+''
+>>> for i in range(N):
+	message=message +(chr(ord(original[i]) ^ key))
+
+	
+>>> message
+'^e*ho*ex*De~*~e*ho+'
+>>> result = ''
+>>> key1 = 45
+>>>  for i in range(N):
+	result=result +(chr(ord(original[i]) ^ key1))
+	
+SyntaxError: unexpected indent
+>>> for i in range(N):
+	message=message +(chr(ord(original[i]) ^ key))
+
+	
+>>> result
+''
+>>> for i in range(N):
+	result=result +(chr(ord(original[i]) ^ key1))
+
+	
+>>> result
+'yB\rOH\rB_\rcBY\rYB\rOH\x0c'
+>>> key1 = key
+>>> result = ''
+>>> for i in range(N):
+	result=result +(chr(ord(original[i]) ^ key1))
+
+	
+>>> result
+'^e*ho*ex*De~*~e*ho+'
+>>> 
