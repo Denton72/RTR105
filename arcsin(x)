@@ -1,5 +1,6 @@
 1.-------------------------------------------------------------------------------------------------------------
 1.1.input 'what i write'
+# -*- coding: utf-8 -*-
 import math  'if >  from math import asin then you can use only asic '
 'standart test functions'
 x=input('enter any number')
@@ -15,3 +16,5 @@ enter any number 1
 ---------------------------------------------------------------------------------------------------------------
 2.
 2.1.input
+# -*- coding: utf-8 -*-
+import cmath  'more complex numbers to handle i use cmath for testing'
