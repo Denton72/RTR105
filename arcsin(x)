@@ -3,8 +3,7 @@
 # -*- coding: utf-8 -*-
 import math  'if >  from math import asin then you can use only asic '
 'standart test functions'
-x=input('enter any number')
-x=int(x)
+x=float(input('enter any number'))
 x=math.asin(x) 'but if you use import math you can use all of the math functions math.sin math.cos'
 print(x)
 1.2.output 'what is shown and needs to be done'
@@ -17,4 +16,26 @@ enter any number 1
 2.
 2.1.input
 # -*- coding: utf-8 -*-
-import cmath  'more complex numbers to handle i use cmath for testing as i had problems with diffent numbers while i was testing my own code'
+import cmath
+
+# 'more complex numbers to handle i use cmath for testing
+
+#as i had problems with diffent numbers while i was testing my own code like with number 5'
+#example: 
+#enter any number 5
+#Traceback (most recent call last):
+ # File "python", line 8, in <module>
+#ValueError: math domain error
+# i guess my library probably is corrupt do to my hdd life periude  need to test the code prior to that in university :(
+
+x=float(input('enter any number'))
+y=cmath.asin(x)  
+print(y)
+2.2.output
+Python 3.6.1 (default, Dec 2015, 13:05:11)
+[GCC 4.8.2] on linux
+   
+enter any number 5
+(1.5707963267948966+2.2924316695611777j)
+---------------------------------------------------------------------------------------------------------------
+3. arcsin  trew summation
