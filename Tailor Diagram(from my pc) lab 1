@@ -1,8 +1,7 @@
 taylorDiagram.py 
 
 #!/usr/bin/env python
-
-
+ """ this one is training code from my tech school """
 
 import numpy as NP
 
