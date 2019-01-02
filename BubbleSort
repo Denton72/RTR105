@@ -8,4 +8,8 @@ def bubbleSort(alist):
 
 alist = [65, 110, 100, 114, 101, 106, 115, 32, 73, 118, 97, 110, 111, 118, 115]
 bubbleSort(alist)
+print('Andrejs Ivanovs')
+print('Not Sorted:')
+print('065 110 100 114 101 106 115 032 073 118 097 110 111 118 115')
+print('Sorted:')
 print(alist)
